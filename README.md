@@ -1,6 +1,9 @@
 # pretty-time-(webcomponent)
 A simple ultra lightweight VanillaJS Webcomponent to display time.
 
+## Installation
+`npm i -S pretty-time-webcomponent`
+
 ## Usage 
 Include pretty-time.js:
 ```html
