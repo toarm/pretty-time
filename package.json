@@ -1,0 +1,24 @@
+{
+  "name": "pretty-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pretty-time.js",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toarm/pretty-time.git"
+  },
+  "keywords": [
+    "time",
+    "pretty",
+    "webcomponent"
+  ],
+  "author": "Tobias Armbruster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toarm/pretty-time/issues"
+  },
+  "homepage": "https://github.com/toarm/pretty-time#readme"
+}

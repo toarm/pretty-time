@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number Format Demo</title>
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script type="module" src="pretty-time.js"></script>
+    <style>
+        xmp {
+            background-color: lightgray;
+            padding: 3px;
+            display: inline-block;
+        }
+
+        xmp:after {
+            content: ": ";
+        }
+
+        number-format {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<xmp>
+    <pretty-time milliseconds="864064000"></pretty-time>
+</xmp>
+<pretty-time milliseconds="86404000"></pretty-time>
+
+<xmp>
+    <pretty-time milliseconds="16208020"></pretty-time>
+</xmp>
+<pretty-time milliseconds="16208020"></pretty-time>
+
+<xmp>
+    <pretty-time milliseconds="23453524335"></pretty-time>
+</xmp>
+<pretty-time milliseconds="23453524335"></pretty-time>
+</body>
+</html>
