@@ -38,7 +38,7 @@ class PrettyTime extends HTMLElement {
         if (!isNaN(milliseconds)) {
             //TODO use MONTH_MS some day
             const prettyTime = prettyRender(milliseconds, WEEK_MS);
-            this.innerText = prettyTime;
+            this.innerText = prettyTime.trim();
         }
     }
 }
